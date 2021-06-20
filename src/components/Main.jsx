@@ -14,7 +14,7 @@ export default function Main() {
     <main className="main">
       <section className={`main__list ${open ? "open" : ""}`}>
         <h2>Answers list</h2>
-        <AnswersList />
+        <AnswersList answersList={[]} />
       </section>
       <section className="main__form">
         <form
